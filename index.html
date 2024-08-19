@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheShoeBox</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="icon" href="images/shoebox.ico">
+</head>
+
+<body>
+
+  <nav>
+    <img class="logo-img" src="images/logo-sneaker.png" alt="logo" width="60" height="40">
+    
+    <ul class="sidebar">
+      <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">New Arrivals</a></li>
+      <li><a href="#">Brands</a></li>
+      <li><a href="#">Accessories</a></li>
+      <li><a href="#">Online Shop</a></li>
+    </ul>
+    
+    <ul class="navbar">
+      <li class="hideOnMobile"><a href="#">Home</a></li>
+      <li class="hideOnMobile"><a href="#">New Arrivals</a></li>
+      <li class="hideOnMobile"><a href="#">Brands</a></li>
+      <li class="hideOnMobile"><a href="#">Accessories</a></li>
+      <li class="hideOnMobile"><a href="#">Online Shop</a></li>
+      <li class="hideBurger"  onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+ 
+  <script src="script.js"></script>
+</body>
+
+</html>
